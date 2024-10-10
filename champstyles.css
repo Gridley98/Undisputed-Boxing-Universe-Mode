@@ -535,6 +535,23 @@ h1.history-title {
     text-transform: uppercase;
     font-family: 'Audiowide', sans-serif;
 }
+/* Add responsive styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 
